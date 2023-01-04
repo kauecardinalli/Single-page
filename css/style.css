@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, arial, sans-serif;
+}
+
+.single-page {
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slide {
+    font-size: 2rem;
+    scroll-snap-align: start;
+}
+.cursive {
+    font-family: "Satisfy", cursive;
+}
+
+/* Seção 1 */
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(/images/01.webp);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.secao1-container {
+    padding: 15px;
+    width: 60vw;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin: auto;
+    padding-bottom: 3rem;
+    max-width: calc(25vw);
+}
+
+.secao1-text h1 {
+    margin: 0px;
+    padding: 10px;
+    color: #c4972e;
+    font-weight: 300;
+    font-size: calc(6vw + 1.2rem);
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    padding-bottom: 1rem;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.secao1-text p {
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: calc(1.5vw + 20);
+    text-align: center;
+    line-height: 1.6;
+    text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Seção 2 */
+
+.secao2 {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    max-width: 50vw;
+    border-radius: 2rem;
+    -webkit-box-shadow: 9px 9px 15px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 9px 9px 15px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 9px 9px 15px 0px rgba(50, 50, 50, 0.5);
+}
+
+.secao2 h2 {
+    padding-top: 1rem;
+    font-weight: 600;
+    color: #c4972e;
+    font-size: calc(1.2rem + 1vw);
+    text-align: center;
+    line-height: 1.9;
+}
+
+.secao2 p {
+    font-size: calc(0.8rem + 0.5vw);
+    line-height: 1.5;
+    max-width: 40vw;
+}
+
+.background2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url(/images/5332433.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Seção 3 */
+
+.secao3 {
+    padding: 10vh 0;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.secao3 img {
+    max-width: 35vw;
+    object-fit: cover;
+    -webkit-mask-image: url(/images/heart-icon.svg);
+    mask-image: url(/images/heart-icon.svg);
+    -webkit-mask-size: 90%;
+    mask-size: 90%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.secao3-grid {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+.secao3-img {
+}
+
+.secao3 h2 {
+    margin: auto;
+    color: #c4972e;
+    font-weight: 300;
+    font-size: calc(4vw + 1.2rem);
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    padding-bottom: 1rem;
+}
+
+.secao3 h3 {
+    text-align: left;
+    font-weight: 600;
+    max-width: 80%;
+    font-size: calc(1.5vw);
+    padding-bottom: 1rem;
+    margin: auto 3%;
+    color: #c4972e;
+}
+
+.secao3 p {
+    font-size: calc(1.3rem);
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.secao3-grid ul {
+    text-align: left;
+    font-size: calc(0.6rem + 0.5vw);
+    max-width: 100%;
+    margin: auto 3%;
+    line-height: 3rem;
+}
+
+.background3 {
+    background-image: url(/images/fundoCorações.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Seção 4 */
+
+.secao4 {
+    height: 100vh;
+    padding: 10vh 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao4 h2 {
+    font-weight: 700;
+    color: #c4972e;
+    font-size: calc(1.6rem);
+    text-align: center;
+    line-height: 1.4;
+}
+
+.secao4 h3 {
+    font-size: 1.5rem;
+    color: white;
+    padding: 5% 0 0 0;
+}
+
+.secao4 .cursive {
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+.secao4 p {
+    font-size: calc(1.4rem);
+    line-height: 1.2;
+    max-width: 40vw;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    color: white;
+}
+
+.secao4 nav {
+    padding: 4% 0;
+}
+
+.background4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(/images/banner04.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Seção 5 */
+
+.secao5 {
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url(/images/5332433.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secao5 h2 {
+    padding-top: 1rem;
+    font-weight: 600;
+    color: #c4972e;
+    font-size: calc(1.2rem + 1vw);
+    text-align: center;
+    line-height: 1.9;
+}
+
+.secao5 p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    max-width: 40vw;
+    margin: 5% auto;
+}
+
+.background5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url(/images/5332433.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo-form {
+    max-width: 80%;
+}
+
+/* Mobile */
+
+@media (max-width: 1194px) {
+    .logo {
+        padding-bottom: 3rem;
+        max-width: calc(55vw);
+    }
+
+    .secao1-text h1 {
+        width: 90vw;
+    }
+
+    .secao1-text p {
+        max-width: 90vw;
+    }
+
+    .video {
+        max-width: 90vw;
+    }
+
+    .secao2 h2 {
+        max-width: 80vw;
+        font-size: 2.2rem;
+        line-height: 1.4;
+        padding: 1rem 0;
+    }
+
+    .secao2 p {
+        max-width: 80vw;
+        font-size: 1.2rem;
+    }
+
+    .secao3 {
+        padding: 30vh 0;
+        display: flex;
+        margin: auto;
+    }
+
+    .secao3-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao3 img {
+        object-fit: cover;
+        -webkit-mask-image: url(/images/heart-icon.svg);
+        mask-image: url(/images/heart-icon.svg);
+        -webkit-mask-size: 90%;
+        mask-size: 90%;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        mask-position: center;
+        max-width: 80vw;
+    }
+
+    .secao3 h2 {
+        margin: auto;
+        color: #c4972e;
+        font-weight: 300;
+        font-size: 3.5rem;
+        text-align: center;
+        font-family: "Satisfy", cursive;
+    }
+
+    .secao3 h3 {
+        text-align: center;
+        max-width: 80vw;
+        font-size: 1.3rem;
+        line-height: 1.3;
+    }
+
+    .secao3 p {
+        max-width: 80vw;
+        font-size: 1.2rem;
+    }
+
+    .secao3-grid ul {
+        font-size: 1.2rem;
+        max-width: 100%;
+        margin: auto 3%;
+        line-height: 1.9rem;
+    }
+
+    .secao4 p {
+        font-size: calc(1.1rem);
+        line-height: 1.4;
+        max-width: 40vw;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .secao4 h2 {
+        font-weight: 700;
+        color: #c4972e;
+        font-size: 2rem;
+        max-width: 70%;
+        text-align: center;
+        line-height: 1.2;
+        margin: 5%;
+    }
+}
