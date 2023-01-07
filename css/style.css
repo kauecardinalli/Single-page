@@ -87,13 +87,13 @@
     justify-content: center;
 }
 
-.video {
+/* .video {
     max-width: 50vw;
     border-radius: 2rem;
     -webkit-box-shadow: 9px 9px 15px 0px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 9px 9px 15px 0px rgba(50, 50, 50, 0.5);
     box-shadow: 9px 9px 15px 0px rgba(50, 50, 50, 0.5);
-}
+} */
 
 .secao2 h2 {
     padding-top: 1rem;

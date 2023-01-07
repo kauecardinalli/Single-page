@@ -190,7 +190,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w ./sass/main.scss -o ./css/main.css --recursive"
+    "sass": "node-sass -w sass/main.scss -o css/ -r"
   },
   "repository": {
     "type": "git",
